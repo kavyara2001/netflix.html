@@ -1,0 +1,368 @@
+
+body{
+     background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+     background-size: 100vw 80vh;
+     /* height:50vh;   */
+     background-color: black;
+     position:relative;
+     background-repeat: no-repeat;
+     color: white;
+}
+
+
+
+/* nav for the image and button */
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/* na inside class img inside img */
+
+nav .img img{
+    width:17%;
+    margin-top: -18px;
+}
+
+/* this is nav class btn */
+
+nav .btn{
+  display:flex;
+  margin-top: 23px;
+}
+
+ 
+.btn .en{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+} 
+
+.btn .en:hover{
+    background-color: transparent;
+}
+
+ .btn .en{
+    margin-inline: 20px;
+} 
+
+
+
+.btn .ta{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+   
+}
+
+
+.btn .ta:hover{
+    background-color: transparent;
+}
+
+.btn .ta{
+    margin-inline: 20px;
+} 
+
+
+
+
+.btn .sin{
+    width: 90px;
+    height: 35px;
+    background-color:red;
+    color: white;
+    font-size: 19px;
+    border-radius: 2px;
+    border: none;
+    
+} 
+
+.btn .sin:hover{
+    background-color: black;
+    border: 2px solid red;
+}
+
+.btn .sin{
+    margin-inline: 20px;
+
+} 
+
+
+.main{
+    text-align: center;
+}
+
+
+.main h1{
+    font-size:60px;
+}
+
+.main h3{
+    font-size:40px;
+}
+
+.main p{
+    font-size:35px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* input */
+
+.input input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+
+}
+
+
+.input button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color:white;
+}
+
+
+
+
+/* fir */
+
+
+.fir{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 160px;
+    padding: 70px;
+    border-top: 4px solid gray;
+}
+
+
+
+
+ .fir h1{
+    font-size: 50px;
+}
+
+.fir p{
+    font-size: 30px;
+}
+
+.fir img{
+    width:40%;
+}
+
+
+.buttons h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    border-top: 4px solid gray;
+}
+
+.buttons button{
+    width:500px;
+    height: 50px;
+    background-color: gray;
+    color:white;
+    font-size: 30px;
+    margin-left: 33%;
+    text-align: left; 
+    border:2px solid; 
+    border-top: 4px solid gray;
+}
+
+.buttons button:hover{
+    background-color:transparent;
+}   
+
+
+
+
+ 
+
+/* .fir h1{
+    font-size: 50px;
+}
+
+.fir p{
+    font-size: 30px;
+}
+
+.fir img{
+    width:40%;
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    border-top: 4px solid gray;
+}
+
+.buttons button{
+    width:500px;
+    height: 50px;
+    background-color: gray;
+    color:white;
+    font-size: 30px;
+    margin-left: 33%;
+    text-align: left; 
+    border:2px solid; 
+    border-top: 4px solid gray;
+}
+
+.buttons button:hover{
+    background-color:transparent;
+}   */
+
+
+
+/* footer */
+
+
+footer {
+    list-style-type: none;
+    justify-content: center;
+    /* overflow: hidden; */
+    background-color: black;
+    margin-top:33px;
+    border-top: 4px solid gray;
+    
+}
+
+   footer div{
+    float: left;
+    margin-left: 90px;
+   }
+
+   ul{
+  list-style-type: none;
+  margin-left: -40px;;
+   }
+
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+.FAO a{
+   
+   text-decoration: none;
+   color: white;
+ text-align: left;
+}
+
+.FAO ul{
+    overflow: hidden;
+    list-style-type: none;
+   text-align: left;
+   margin-left: -40px;
+   
+}
+
+.FAO a:hover{
+    background-color: black;
+    
+}
+
+.Health a{
+   
+    text-decoration: none;
+    color: white;
+  text-align: left;
+ }
+ 
+ .Health ul{
+     overflow: hidden;
+     list-style-type: none;
+    text-align: left;
+    margin-left: -40px;
+    
+ }
+ 
+ .Health a:hover{
+     background-color: black;
+     
+ }
+
+ .Accounts a{
+   
+    text-decoration: none;
+    color: white;
+  text-align: left;
+ }
+ 
+ .Accounts ul{
+     overflow: hidden;
+     list-style-type: none;
+    text-align: left;
+    margin-left: -40px;
+    
+ }
+ 
+ .Accounts a:hover{
+     background-color: black;
+     
+ }
+ 
+ .Media a{
+   
+    text-decoration: none;
+    color: white;
+  text-align: left;
+ }
+ 
+ .Media C ul{
+     overflow: hidden;
+     list-style-type: none;
+    text-align: left;
+    margin-left: -40px;
+    
+ }
+ 
+ .Media  a:hover{
+     background-color: black;
+     
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
